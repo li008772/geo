@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QdiDataAccess
+</name>
+</assembly>
+<members>
+<member name="T:Qdi.DataAccess.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.MGSlogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_Basemap_Owner">
+<summary>
+  Looks up a localized string similar to mgs_qdi.qdi..
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_dataEditorPassword">
+<summary>
+  Looks up a localized string similar to b0r3QDITZoo.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_dataEditorUserName">
+<summary>
+  Looks up a localized string similar to qdi.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_dataViewerPassword">
+<summary>
+  Looks up a localized string similar to QD1vi3wR.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_dataViewerUserName">
+<summary>
+  Looks up a localized string similar to qdiviewer.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_DefaultLogin">
+<summary>
+  Looks up a localized string similar to STUDENT.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_forceDebugMode">
+<summary>
+  Looks up a localized string similar to False.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_database">
+<summary>
+  Looks up a localized string similar to mgs_qdi.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_database_debug">
+<summary>
+  Looks up a localized string similar to mgs_sandbox.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_instance">
+<summary>
+  Looks up a localized string similar to sde:postgresql:134.84.123.13.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_instance_debug">
+<summary>
+  Looks up a localized string similar to sde:postgresql:134.84.123.13.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_Owner">
+<summary>
+  Looks up a localized string similar to mgs_qdi.qdi..
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_Owner_debug">
+<summary>
+  Looks up a localized string similar to mgs_qdi_test.qdi..
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_qduserfile_userid_field">
+<summary>
+  Looks up a localized string similar to userid.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_qduserfile_userright_field">
+<summary>
+  Looks up a localized string similar to userright.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_qdversion_versionname_field">
+<summary>
+  Looks up a localized string similar to versionname.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_qdversion_versionnum_field">
+<summary>
+  Looks up a localized string similar to versionnum.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_Server">
+<summary>
+  Looks up a localized string similar to 134.84.123.13.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_testMode">
+<summary>
+  Looks up a localized string similar to True.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_Version">
+<summary>
+  Looks up a localized string similar to sde.DEFAULT.
+</summary>
+</member>
+</members>
+</doc>

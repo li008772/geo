@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+mgsCustomControls
+</name>
+</assembly>
+<members>
+<member name="P:mgs.CustomControls.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:mgs.CustomControls.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:mgs.CustomControls.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:mgs.CustomControls.MgsComboBox.ForceRefresh(ESRI.ArcGIS.Geodatabase.ITable,System.String,mgs.Domain.CVDListType)">
+	<summary>
+ Update a control.
+ </summary>
+	<param name="pTable">The Table related to the control.</param>
+	<param name="pFieldName">The Field Name used to update the control.
+ </param>
+	<param name="pListType">What values to display--used for Fields using a coded domain.
+ </param>
+</member><member name="M:mgs.CustomControls.MgsComboBox.Populate(ESRI.ArcGIS.Geodatabase.ITable,System.String,mgs.Domain.CVDListType,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.Collections.Generic.List{System.String}}}@)">
+	<summary>
+ Download the specified binary page.
+ </summary>
+	<param name="pTable">The HttpWebResponse to
+ download from.</param>
+	<param name="pFieldName">
+	</param>
+	<param name="pListType">
+	</param>
+</member><member name="M:mgs.CustomControls.MgsComboBox.SetSelectionByDisplayValue(System.String)">
+	<summary>
+ Download the specified binary page.
+ </summary>
+	<param name="pValue">
+	</param>
+</member><member name="M:mgs.CustomControls.MgsComboBox.SetSelectionByValue(System.String)">
+	<summary>
+ Download the specified binary page.
+ </summary>
+	<param name="pValue">
+	</param>
+</member>
+</members>
+</doc>

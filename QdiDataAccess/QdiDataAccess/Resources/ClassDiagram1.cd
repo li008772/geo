@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Qdi.DataAccess.ConnectionManager" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABCAAAAAA=</HashCode>
+      <FileName>ConnectionManager.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Qdi.DataAccess.CustomException" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomException.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Qdi.DataAccess.DataAccessFactory">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Qdi.DataAccess.DataAccessFactory.DatabaseType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataAccessFactory.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccessFactory.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Qdi.DataAccess.PostGresDataAccess" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAYIAAAggAJQAAIAQADAAIAgEAAAQIAIIQEAAQAAYAA=</HashCode>
+      <FileName>PostGresDataAccess.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Qdi.DataAccess.QdiLoginForm">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQwAQCAAAAAAAACAAAAiAEAAAgAACACBBAAAAAA=</HashCode>
+      <FileName>QdiLoginForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Qdi.DataAccess.My.MySettings" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Qdi.DataAccess.IConnectionManager">
+    <Position X="1" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABCAAAAAA=</HashCode>
+      <FileName>IConnectionManager.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Qdi.DataAccess.IDataAccess">
+    <Position X="2.75" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAQAAIAAAAAAIAgAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>IDataAccess.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Qdi.DataAccess.ConnectionStatus">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAACAAIAAAAAAAAAA=</HashCode>
+      <FileName>Enum.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Module Name="Qdi.DataAccess.My.Resources.Resources" Collapsed="true">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAABAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Qdi.DataAccess.My.MySettingsProperty" Collapsed="true">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

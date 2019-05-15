@@ -1,0 +1,1370 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QdiDataAccess
+</name>
+</assembly>
+<members>
+<member name="T:Qdi.DataAccess.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.MGSlogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_Basemap_Owner">
+<summary>
+  Looks up a localized string similar to mgs_qdi.qdi..
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_dataEditorPassword">
+<summary>
+  Looks up a localized string similar to qdi.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_dataEditorUserName">
+<summary>
+  Looks up a localized string similar to qdi.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_dataViewerPassword">
+<summary>
+  Looks up a localized string similar to qdi.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_dataViewerUserName">
+<summary>
+  Looks up a localized string similar to qdi.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_DefaultLogin">
+<summary>
+  Looks up a localized string similar to STUDENT.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_forceDebugMode">
+<summary>
+  Looks up a localized string similar to False.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_database">
+<summary>
+  Looks up a localized string similar to qdi.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_database_debug">
+<summary>
+  Looks up a localized string similar to qdi.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_instance">
+<summary>
+  Looks up a localized string similar to sde:postgresql:140.209.68.146.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_instance_debug">
+<summary>
+  Looks up a localized string similar to sde:postgresql:140.209.68.146.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_Owner">
+<summary>
+  Looks up a localized string similar to qdi.qdi..
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_QDI_Owner_debug">
+<summary>
+  Looks up a localized string similar to qdi.qdi..
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_qduserfile_userid_field">
+<summary>
+  Looks up a localized string similar to userid.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_qduserfile_userright_field">
+<summary>
+  Looks up a localized string similar to userright.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_qdversion_versionname_field">
+<summary>
+  Looks up a localized string similar to versionname.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_qdversion_versionnum_field">
+<summary>
+  Looks up a localized string similar to versionnum.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_Server">
+<summary>
+  Looks up a localized string similar to 140.209.68.146.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_testMode">
+<summary>
+  Looks up a localized string similar to True.
+</summary>
+</member>
+<member name="P:Qdi.DataAccess.My.Resources.Resources.r_Version">
+<summary>
+  Looks up a localized string similar to sde.DEFAULT.
+</summary>
+</member>
+<member name="M:Qdi.DataAccess.CursorToTextureRecord.#ctor">
+ <summary>
+ This subroutine appears to do nothing
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.CursorToTextureRecord.#ctor(ESRI.ArcGIS.Geodatabase.ICursor)">
+ <summary>
+ A subroutine for creating a new IQdiCursor.
+ </summary>
+ <param name="pCursorDef"></param>
+</member>
+<member name="P:Qdi.DataAccess.CursorToTextureRecord.RecordList">
+ <summary>
+The RecordList property. If there is no list, then the list must be built by calling the BuildRecordList() function. Whether this is necessary or not, a RecordList property will be returned when this property is called.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Qdi.DataAccess.CursorToTextureRecord.PropertyToFieldMapping">
+ <summary>
+ The PropertyToFieldMapping property, which is returned when this is called.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToTextureRecord.ConvertFeatureIntoTextureRecord(ESRI.ArcGIS.Geodatabase.IRow)">
+ <summary>
+ A function that converts features into the texture record. As long as no exceptions are caught, a texture record is returned.
+ </summary>
+ <param name="pRow">The current row in the DB</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToTextureRecord.copyFeatureValuesIntoProperties(ESRI.ArcGIS.Geodatabase.IRow,Qdi.BusinessLogic.ITextureRecord@)">
+ <summary>
+ A subroutine that copies the feature values into the properties. This subroutine continues as long as there are values to copy over.
+ </summary>
+ <param name="pFeature">The feature to be copied</param>
+ <param name="pTextureRecord">The current texture record</param>
+</member>
+<member name="M:Qdi.DataAccess.CursorToTextureRecord.ReadRowValue(ESRI.ArcGIS.Geodatabase.IRow,System.Int32)">
+ <summary>
+ A function that reads the row's value and returns it.
+ </summary>
+ <param name="pRow">The row to read from</param>
+ <param name="pFieldIndex">The field index to read from</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToTextureRecord.SetObjectProperty(Qdi.BusinessLogic.ITextureRecord,System.Reflection.PropertyInfo,System.Object)">
+ <summary>
+ A subroutine that sets an object's property.
+ </summary>
+ <param name="pQdiRecord">The qdiRecord to set the value in</param>
+ <param name="pPropertyInfo">The property's info parameter</param>
+ <param name="pPropertyValue">The value to be set to the object's property value</param>
+</member>
+<member name="P:Qdi.DataAccess.CursorToTextureRecord.FieldIndexDictionary(ESRI.ArcGIS.Geodatabase.IRow)">
+ <summary>
+ The FieldIndexDictionary property. This simply returns the property when called.
+ </summary>
+ <param name="pRow">The current row</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToTextureRecord.BuildRecordList">
+ <summary>
+ A subroutine that builds a record list. This function is called when there isn't already a record list.
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.CursorToTextureRecord.ObjToInteger(System.Object)">
+ <summary>
+ Converts an object to an integer and returns an integer. This may not be a necessary function, since there is likely a built in function that performs the same task.
+ </summary>
+ <param name="pObject">The object to be converted to an integer</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToTextureRecord.ObjToDouble(System.Object)">
+ <summary>
+ Converts an object to an double and returns an double. This may not be a necessary function, since there is likely a built in function that performs the same task.
+ </summary>
+ <param name="pObject">The object to be converted to a double</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToTextureRecord.UpdateRecord(ESRI.ArcGIS.Geodatabase.IRow@,Qdi.BusinessLogic.ITextureRecord)">
+ <summary>
+ A function that updates a texture record. Not only does it update the record, but records the date when each item was updated.
+ </summary>
+ <param name="pRow">The current row</param>
+ <param name="pTextureRecord">The texture record to be updated</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToTextureRecord.ReadFeatureValue(ESRI.ArcGIS.Geodatabase.IRow,System.Int32)">
+ <summary>
+ A function for reading feature values. It returns a property value.
+ </summary>
+ <param name="pRow">The current row</param>
+ <param name="pFieldIndex">The current field index.</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.frmWaitingForm.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ handles the "Try Again" button
+ </summary>
+ <param name="sender">sender is an object of generic type System.Object, it is passing the control that is causing the event to fire.</param>
+ <param name="e"> e is an object of type System.EventArgs where EventArgs is the generic Class for event arguments or, the arguments the event is passed.</param>
+</member>
+<member name="M:Qdi.DataAccess.frmWaitingForm.Button2_Click(System.Object,System.EventArgs)">
+ <summary>
+ handles the "Force Save" button
+ </summary>
+ <param name="sender">sender is an object of generic type System.Object, it is passing the control that is causing the event to fire.</param>
+ <param name="e"> e is an object of type System.EventArgs where EventArgs is the generic Class for event arguments or, the arguments the event is passed.</param>
+</member>
+<member name="M:Qdi.DataAccess.frmWaitingForm.Button3_Click(System.Object,System.EventArgs)">
+ <summary>
+ handles the "Cancel" button
+ </summary>
+ <param name="sender">sender is an object of generic type System.Object, it is passing the control that is causing the event to fire.</param>
+ <param name="e"> e is an object of type System.EventArgs where EventArgs is the generic Class for event arguments or, the arguments the event is passed.</param>
+</member>
+<member name="M:Qdi.DataAccess.PersonalGDBDataAccess.SwitchToEditorWorkspace">
+ <summary>
+     Several accessor and modifier methods, and other helper methods.
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.PersonalGDBDataAccess.GetWorkspace">
+ <summary>
+     Creates a Workspace object from the connection string (path of database).
+ </summary>
+ <returns>Information about the workspace container of datasets.</returns>
+</member>
+<member name="P:Qdi.DataAccess.PersonalQdiCursorDefinition.SqlString">
+ <summary>
+     Builds and returns a long String of SQL statements.
+ </summary>
+ <returns>A String with multiple SQL statements.</returns>
+</member>
+<member name="M:Qdi.DataAccess.PersonalQdiCursorDefinition.addClause(System.String@,System.String)">
+ <summary>
+     If there's a valid clause, it's concatenated to a long String of SQL statements.
+ </summary>
+ <param name="pSqlString">String to store the built SQL statements</param>
+ <param name="pThisClause">Clause to be added to the long String of SQL statements.</param>
+</member>
+<member name="P:Qdi.DataAccess.PersonalQdiCursorDefinition.clauseRelateId">
+ <summary>
+     Checks for valid RelateID, then builds the clause.
+ </summary>
+ <returns>A validly built RelateID clause.</returns>
+</member>
+<member name="M:Qdi.DataAccess.PersonalQdiCursorDefinition.StandardWhereClause(System.String@,System.Nullable{System.Decimal}@,System.String@)">
+ <summary>
+     Builds a where clause by error checking and then adding quotes.
+ </summary>
+ <param name="fieldName">The field to search.</param>
+ <param name="value">The value to search for, which gets cast as String by the function.</param>
+ <param name="pOperator">Optional argument for operator, it's assumed to be "=" by default.</param>
+ <returns>A where clause with quotes added in.</returns>
+</member>
+<member name="M:Qdi.DataAccess.PersonalQdiCursorDefinition.StandardWhereClause(System.String@,System.String@,System.String@)">
+ <summary>
+     Builds a where clause by error checking and then concatenating each term.
+ </summary>
+ <param name="fieldName">The field to search.</param>
+ <param name="value">The value to search for.</param>
+ <param name="pOperator">Optional argument for operator, it's assumed to be "=" by default.</param>
+ <returns>A where clause with quotes added in.</returns>
+</member>
+<member name="M:Qdi.DataAccess.PersonalQdiCursorDefinition.StandardWhereClause(System.String@,System.Collections.Generic.List{System.String}@,System.String@)">
+ <summary>
+     Builds a where clause by error checking and adding the appropriate spaces, parentheses, and quotes.
+ </summary>
+ <param name="fieldName">The field to search.</param>
+ <param name="value">The values to search for.</param>
+ <param name="pOperator">Optional argument for operator, it's assumed to be "in" by default.</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PersonalQdiCursorDefinition.QdixICursor">
+ <summary>
+     Creates a cursor for the QDIX layer.
+ </summary>
+ <returns>A cursor based off of the contents of SqlString</returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToQdiRecord.#ctor">
+ <summary>
+ A sub that appears to do nothing
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.CursorToQdiRecord.#ctor(Qdi.DataAccess.IQdiCursorDefinition,Qdi.DataAccess.IPropertyToFieldMappingList)">
+ <summary>
+ A subroutine for creating a new IQdiCursor.
+ </summary>
+ <param name="pCursorDef"></param>
+</member>
+<member name="P:Qdi.DataAccess.CursorToQdiRecord.RecordList">
+ <summary>
+The RecordList property. If there is no list, then the list must be built by calling the BuildRecordList() function. Whether this is necessary or not, a RecordList property will be returned when this property is called.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Qdi.DataAccess.CursorToQdiRecord.PropertyToFieldMapping">
+ <summary>
+ The PropertyToFieldMapping property, which is returned when this is called.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToQdiRecord.ConvertFeatureIntoQdiRecord(ESRI.ArcGIS.Geodatabase.IFeature)">
+ <summary>
+ A function that converts features into the qdi record. As long as no exceptions are caught, a qdi record is returned.
+ </summary>
+ <param name="pFeature">The current feature</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToQdiRecord.copyFeatureValuesIntoProperties(ESRI.ArcGIS.Geodatabase.IFeature,Qdi.BusinessLogic.IQdiRecord)">
+ <summary>
+ A subroutine that copies the feature values into the properties. This subroutine continues as long as there are values to copy over.
+ </summary>
+ <param name="pFeature">The feature to be copied</param>
+ <param name="pQdiRecord">The current qdi record</param>
+</member>
+<member name="M:Qdi.DataAccess.CursorToQdiRecord.ReadFeatureValue(ESRI.ArcGIS.Geodatabase.IFeature,System.Int32)">
+ <summary>
+ A function that reads feature values
+ </summary>
+ <param name="pFeature">the current feature</param>
+ <param name="pFieldIndex">the field index</param>
+ <returns>the property value</returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToQdiRecord.SetObjectProperty(Qdi.BusinessLogic.IQdiRecord,System.Reflection.PropertyInfo,System.Object)">
+ <summary>
+ A subroutine that sets an object's property.
+ </summary>
+ <param name="pQdiRecord">The qdiRecord to set the value in</param>
+ <param name="pPropertyInfo">The property's info parameter</param>
+ <param name="pPropertyValue">The value to be set to the object's property value</param>
+</member>
+<member name="M:Qdi.DataAccess.CursorToQdiRecord.BuildRecordList">
+ <summary>
+ A subroutine that builds a record list. This function is called when there isn't already a record list.
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.CursorToQdiRecord.ObjToInteger(System.Object)">
+ <summary>
+ Converts an object to an integer and returns an integer. This may not be a necessary function, since there is likely a built in function that performs the same task.
+ </summary>
+ <param name="pObject">The object to be converted to an integer</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.CursorToQdiRecord.ObjToDouble(System.Object)">
+ <summary>
+ Converts an object to an double and returns an double. This may not be a necessary function, since there is likely a built in function that performs the same task.
+ </summary>
+ <param name="pObject">The object to be converted to a double</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.#ctor">
+ <summary>
+ A subroutine for creating a new object
+ </summary>
+</member>
+<member name="P:Qdi.DataAccess.DataAccessBaseClass.ConnectionStatus">
+ <summary>
+ The ConnectionStatus property
+ </summary>
+ <returns>Returns the property</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.Connect(System.String@)">
+ <summary>
+ A subroutine for connecting code
+ </summary>
+ <param name="pCodeVersion">The code version</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.Disconnect">
+ <summary>
+ A subroutine for disconnecting code
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.UpdateConnection(System.Boolean,System.String)">
+ <summary>
+ A subroutine for updating a connection
+ </summary>
+ <param name="SkipDisconnect">boolean for if disconnection should be skipped or not</param>
+ <param name="CodeVersion">The code version</param>
+</member>
+<member name="P:Qdi.DataAccess.DataAccessBaseClass.requiredCodeVersion">
+ <summary>
+ The required code version property
+ </summary>
+ <returns>The required code version</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.updateCodeVersions">
+ <summary>
+ A subroutine for updating code versions
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.getTableCursor(Qdi.BusinessLogic.NamedTables,System.String)">
+ <summary>
+ A subroutine for getting the table cursor
+ </summary>
+ <param name="pNamedTableType">The type of named table</param>
+ <param name="pWhereClause">The 'where' cause as a string</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.SpatialSelect(ESRI.ArcGIS.Geometry.IGeometry,System.Boolean)">
+ <summary>
+ A function that allows for spatial selection
+ </summary>
+ <param name="geometry">The geometric type</param>
+ <param name="pOneFeature">An optional feature boolean that seems to always be passed in as false</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.SpatialSelectOneRecord(ESRI.ArcGIS.Carto.IActiveView,ESRI.ArcGIS.Geometry.IGeometry,System.Boolean)">
+ <summary>
+ A function for spatially selecting one record
+ </summary>
+ <param name="pActiveView">The active view</param>
+ <param name="geometry">The geometric type</param>
+ <param name="addSelect">A boolean for addSelect. This is an optional param.</param>
+ <returns>Returns the QdiRecord</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.SpatialSelectManyRecords(ESRI.ArcGIS.Carto.IActiveView,ESRI.ArcGIS.Geometry.IGeometry,System.Boolean)">
+ <summary>
+ A function for spatially selecting multiple records
+ </summary>
+ <param name="pActiveView">The active view</param>
+ <param name="pGeometry">The geometric type</param>
+ <param name="addSelect">A boolean for addSelect. This is an optional param.</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ZoomToSelectedQDIXRecords(ESRI.ArcGIS.Carto.IActiveView)">
+ <summary>
+ A subroutine for zooming to selected qdi records within the active view
+ </summary>
+ <param name="pActiveView">The active view object</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.SelectRelateId(ESRI.ArcGIS.Carto.IActiveView,System.String,ESRI.ArcGIS.Carto.esriSelectionResultEnum)">
+ <summary>
+ A subroutine for selecting a related id.
+ </summary>
+ <param name="pActiveView">The active view object</param>
+ <param name="pRelateId">The id to select</param>
+ <param name="SelectionType">The type of selection</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ClearSelectedMapFeatures(ESRI.ArcGIS.Carto.IActiveView,ESRI.ArcGIS.Carto.IFeatureLayer)">
+ <summary>
+ A subroutine that clears the selected map features within the active view's feature layer
+ </summary>
+ <param name="activeView">The active view object</param>
+ <param name="featureLayer">The current feature layer</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.Add(Qdi.BusinessLogic.IQdiRecord@)">
+ <summary>
+ A subroutine that adds a record
+ </summary>
+ <param name="qdiRecord">The record to add</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.Delete(Qdi.BusinessLogic.IQdiRecord@)">
+ <summary>
+ A subroutine that deletes a record
+ </summary>
+ <param name="qdiRecord">The record to delete</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.Update(Qdi.BusinessLogic.IQdiRecord@)">
+ <summary>
+ Subroutine for updating a record
+ </summary>
+ <param name="qdiRecord">The qdiRecord to update</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.MakeEdit(Qdi.BusinessLogic.IQdiRecord@,ESRI.ArcGIS.Geodatabase.IRow@)">
+ <summary>
+ A subroutine for editing a qdiRecord within a specific row
+ </summary>
+ <param name="qdiRecord">The record to edit</param>
+ <param name="row">The row of the desired record</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ReconcileVersion(ESRI.ArcGIS.Geodatabase.IWorkspaceEdit@)">
+ <summary>
+ A subroutine for reconciling versions with each other
+ </summary>
+ <param name="pWorkspaceEdit">A workspace edit object</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.haveLock(ESRI.ArcGIS.Geodatabase.IWorkspaceEdit@)">
+ <summary>
+ A function that returns if a workspaceEdit is locked.
+ </summary>
+ <param name="pWorkspaceEdit">The workspace to edit</param>
+ <returns>A boolean for if the workspace is locked</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.isLocked(ESRI.ArcGIS.Geodatabase.IWorkspaceEdit@,System.String@,System.Boolean@)">
+ <summary>
+ A function for if a workspace is locked
+ </summary>
+ <param name="pWorkspaceEdit">The workspace to edit</param>
+ <param name="pText">THe text being passed in</param>
+ <param name="bySelf">An optional boolean for if the lock is implemented by the workspace itself</param>
+ <returns>Whatever not pRow is nothing means. Extremely confusing, probably needs to be cleaned up.</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.GetLock(ESRI.ArcGIS.Geodatabase.IWorkspaceEdit@)">
+ <summary>
+ A function that gets a lock for a workspace
+ </summary>
+ <param name="pWorkspaceEdit">the workspace to lock</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.RemoveLock(ESRI.ArcGIS.Geodatabase.IWorkspaceEdit@)">
+ <summary>
+ A subroutine for removing a lock from a workspace
+ </summary>
+ <param name="pWorkspaceEdit">the workspace to unlock</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.SetEditable(ESRI.ArcGIS.Geodatabase.IWorkspaceEdit@)">
+ <summary>
+ A function for setting a workspace as editable
+ </summary>
+ <param name="pWorkspaceEdit">the workspace to set as editable</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.SaveEdits(ESRI.ArcGIS.Geodatabase.IWorkspaceEdit@,System.String)">
+ <summary>
+ A subroutine that saves edits
+ </summary>
+ <param name="pWorkspaceEdit">The workspace</param>
+ <param name="pInDataTable">An optional string to pass in</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.WriteValueToField(System.String,ESRI.ArcGIS.Geodatabase.IRow,System.Object)">
+ <summary>
+ A subroutine for writing a value to a field, with the field name taken in as a string
+ </summary>
+ <param name="pFieldName">The field's name (as a string)</param>
+ <param name="pIRow">The row</param>
+ <param name="pValue">The value to write</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.WriteValueToField(System.Int32,ESRI.ArcGIS.Geodatabase.IRow,System.Object)">
+ <summary>
+ Another subroutine for writing a value to a field, but with the field index taken in as an integer
+ </summary>
+ <param name="pFieldIndex">The field index as an integer</param>
+ <param name="pIRow">The row</param>
+ <param name="pValue">The value to write</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.WriteValueDictionary(Qdi.BusinessLogic.IQdiRecord@,ESRI.ArcGIS.Geodatabase.IRow@)">
+ <summary>
+ A subroutine that writes a value dictionary
+ </summary>
+ <param name="qdiRecord">The current qdi record</param>
+ <param name="pIRow">The row to write to a dictionary</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ReadbyRelateId(System.String@)">
+ <summary>
+ A function for reading by related id
+ </summary>
+ <param name="relateId">The id as a string</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ReadbyObjectId(System.Double@)">
+ <summary>
+ A function for reading by object id
+ </summary>
+ <param name="objectId">The id as a double</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ReadFeature(System.Double)">
+ <summary>
+ A function for reading a feature, which is searched for by its object id
+ </summary>
+ <param name="ObjectId">The id of the object to search for</param>
+ <returns>The feature that was searched for, if it was found.</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ReadFeature(System.String)">
+ <summary>
+ A function for reading a feature, which is searched for by its related Id
+ </summary>
+ <param name="relateId">The related id as a string</param>
+ <returns>The feature that was searched for, if it was found.</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ReadFeature(ESRI.ArcGIS.Geodatabase.IFeatureCursor)">
+ <summary>
+ A function for reading a feature, which is searched for by its Feature cursor
+ </summary>
+ <param name="pFCursor">The feature cursor to search by</param>
+ <returns>The feature if it was found</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.RelateIdExists(System.String)">
+ <summary>
+ A function that returns if a related id exists
+ </summary>
+ <param name="relateId">The id to check to see if it exists</param>
+ <returns>true or false, depending on if the id exists or not</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.CanUpdateObjectIdtoRelateId(System.Double,System.String)">
+ <summary>
+ A function that returns a boolean based on if an object id can be updated to a related id
+ </summary>
+ <param name="objectId">The object id to check</param>
+ <param name="relateId">The related id to check</param>
+ <returns>If the object id can be updated to a related id (as a boolean, true or false)</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ObjectIdExists(System.Double)">
+ <summary>
+ A function for checking if an object id exists
+ </summary>
+ <param name="objectId">The object to check</param>
+ <returns>True or false, if the object id exists or not.</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.SearchByRelateId(System.String)">
+ <summary>
+ A function for searching by related id
+ </summary>
+ <param name="relateId">The id to search by</param>
+ <returns>The Feature cursor if found</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ReturnIFeatureCursor(System.String,ESRI.ArcGIS.Carto.IFeatureLayer)">
+ <summary>
+ A function for returning an IFeatureCursor
+ </summary>
+ <param name="sqlString">The sql string to use in the query</param>
+ <param name="mFeatureLayer">The feature layer</param>
+ <returns>A feature cursor</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.SearchByObjectId(System.Double)">
+ <summary>
+ A function for searching by object id
+ </summary>
+ <param name="ObjectId">The id to search by</param>
+ <returns>A feature cursor</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.NextRelateId(System.String)">
+ <summary>
+ A function that gets the next related id
+ </summary>
+ <param name="sqlString">The sql string used in the query</param>
+ <returns>The next related id</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.QueryFeatureClass(System.String,ESRI.ArcGIS.Carto.IFeatureLayer)">
+ <summary>
+ A function for returning an FCursor by query feature class
+ </summary>
+ <param name="queryString">The query string</param>
+ <param name="mFeatureLayer">The feature layer</param>
+ <returns>The FCursor</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.QueryCursor(System.String,Qdi.BusinessLogic.NamedTables)">
+ <summary>
+ A function that returns a query cursor
+ </summary>
+ <param name="whereString">a string for where to search</param>
+ <param name="pTableName">The table name</param>
+ <returns>A query cursor</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.QueryCursor(System.String,ESRI.ArcGIS.Geodatabase.ITable)">
+ <summary>
+ A function that returns a pCursor
+ </summary>
+ <param name="whereString">A string for where to search</param>
+ <param name="pTable">The table</param>
+ <returns></returns>
+</member>
+<member name="P:Qdi.DataAccess.DataAccessBaseClass.CurrentLoginStatus">
+ <summary>
+ The current login status property
+ </summary>
+ <returns>this property</returns>
+</member>
+<member name="P:Qdi.DataAccess.DataAccessBaseClass.QdiWorkspace">
+ <summary>
+ The QdiWorkspace property
+ </summary>
+ <returns>this property</returns>
+</member>
+<member name="P:Qdi.DataAccess.DataAccessBaseClass.Workspace">
+ <summary>
+ The workspace property
+ </summary>
+ <returns>this property</returns>
+</member>
+<member name="P:Qdi.DataAccess.DataAccessBaseClass.OutdatedCode">
+ <summary>
+ The OutdatedCode property
+ </summary>
+ <returns>this property as a boolean</returns>
+</member>
+<member name="P:Qdi.DataAccess.DataAccessBaseClass.myGUID">
+ <summary>
+ The myGUID property
+ </summary>
+ <returns>this property as a Guid</returns>
+</member>
+<member name="P:Qdi.DataAccess.DataAccessBaseClass.Editor">
+ <summary>
+ The Editor property
+ </summary>
+ <returns>this property as a boolean</returns>
+</member>
+<member name="P:Qdi.DataAccess.DataAccessBaseClass.Administator">
+ <summary>
+ The Administrator property, except they spelled it as "Administator" which is incorrect, but hopefully whenever this property is called, it is also spelled wrong.
+ </summary>
+ <returns>this property as a boolean</returns>
+</member>
+<member name="P:Qdi.DataAccess.DataAccessBaseClass.qdixFeatureLayer">
+ <summary>
+ The qdixFeature Layer property
+ </summary>
+ <returns>this property</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.LoadDataIntoView(ESRI.ArcGIS.Carto.IActiveView)">
+ <summary>
+ A subroutine for loading data into the active view
+ </summary>
+ <param name="activeView">The active view</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.LoadData(ESRI.ArcGIS.Carto.IActiveView,Qdi.BusinessLogic.NamedFeatureClass,System.Boolean)">
+ <summary>
+ A subroutine for loading data
+ </summary>
+ <param name="activeView">The active view</param>
+ <param name="layerName">The layer name</param>
+ <param name="setVisible">An optional boolean for setting the data visible</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ConvertFeatureToQdiRecord(ESRI.ArcGIS.Geodatabase.IFeature)">
+ <summary>
+ A function for converting a feature to a QdiRecord
+ </summary>
+ <param name="feature">The feature to convert</param>
+ <returns>The converted feature as a QdiRecord</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ReturnValue(ESRI.ArcGIS.Geodatabase.IFeature@,System.String)">
+ <summary>
+ A function for returning a value
+ </summary>
+ <param name="pFeature">The feature</param>
+ <param name="fieldname">The fieldname</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ReturnStandardString(ESRI.ArcGIS.Geodatabase.IFeature@,System.String,System.String)">
+ <summary>
+ A function that returns a standard string
+ </summary>
+ <param name="feature">The feature</param>
+ <param name="fieldname">The field name</param>
+ <param name="NullValue">An optional null value which is a string. Very confusing.</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.GetFTable(Qdi.BusinessLogic.NamedFeatureClass)">
+ <summary>
+ A function for getting a feature table
+ </summary>
+ <param name="featureClassName">the class name of the feature</param>
+ <returns>the ITable</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.GetFeatureTable(Qdi.BusinessLogic.NamedTables)">
+ <summary>
+ A function for getting a feature table
+ </summary>
+ <param name="pTableName">the table's name</param>
+ <returns>the pTable</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.GetTable(System.String)">
+ <summary>
+ A function for getting a table
+ </summary>
+ <param name="tableName">the name of the table</param>
+ <returns>The pUserTable</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.ArcSdeWorkspaceFromString(System.String)">
+ <summary>
+ Returns an ArcSde Workspace from a string passed in
+ </summary>
+ <param name="connectionString">the string for connecting the workspaces</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.GetFeatureClass(Qdi.BusinessLogic.NamedFeatureClass)">
+ <summary>
+ A function for getting a feature class
+ </summary>
+ <param name="featureClassName">the name of the class</param>
+ <returns>the pFeature class</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.GetFeatureClass(System.String)">
+ <summary>
+ A function for getting a feature class
+ </summary>
+ <param name="featureLayerName">the feature's layer</param>
+ <returns>the pFeature class</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.GetFeatureLayer(Qdi.BusinessLogic.NamedFeatureClass)">
+ <summary>
+ A function for getting a feature layer
+ </summary>
+ <param name="featureClassName">the class name of the feature</param>
+ <returns>the feature layer</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.GetFeatureLayer(System.String)">
+ <summary>
+ A function for getting a feature layer
+ </summary>
+ <param name="featureLayerName">the feature layer's name</param>
+ <returns>the feature layer</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.GetFeatureLayerInView(ESRI.ArcGIS.Carto.IActiveView,Qdi.BusinessLogic.NamedFeatureClass)">
+ <summary>
+ A function for getting a feature layer into the active view
+ </summary>
+ <param name="pActiveView">the active view</param>
+ <param name="featureClassName">the name of the feature class</param>
+ <returns>a Data Set</returns>
+</member>
+<member name="P:Qdi.DataAccess.DataAccessBaseClass.DataSetDict">
+ <summary>
+ The DataSetDict property
+ </summary>
+ <returns>this property as a dictionary</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.SetKeyDataSetDict(System.String,ESRI.ArcGIS.Geodatabase.IDataset)">
+ <summary>
+ A subroutine for setting a key data set dict
+ </summary>
+ <param name="inKey">the key</param>
+ <param name="inDataset">the datasate</param>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.GetDataSet(System.String,ESRI.ArcGIS.Geodatabase.esriDatasetType)">
+ <summary>
+ A function that gets a data set
+ </summary>
+ <param name="datasetName">The name of the data set</param>
+ <param name="datasetType">The type of the data set</param>
+ <returns>The data set</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.isSame(System.String,ESRI.ArcGIS.Geodatabase.IDataset)">
+ <summary>
+ A function that checks to see if a data set is the same
+ </summary>
+ <param name="targetName">the target's name</param>
+ <param name="dataset">the data set</param>
+ <returns>true or false depending on the result</returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.PickData(ESRI.ArcGIS.Carto.IActiveView,Qdi.BusinessLogic.NamedFeatureClass)">
+ <summary>
+ A function for picking data to show in the active view
+ </summary>
+ <param name="pActiveView">the active view</param>
+ <param name="featureClassName">the feature class's name</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessBaseClass.DataExists(ESRI.ArcGIS.Carto.IActiveView,Qdi.BusinessLogic.NamedFeatureClass)">
+ <summary>
+ A function for checking if data exists or not
+ </summary>
+ <param name="pActiveView">the active view</param>
+ <param name="featureClassName">the feature class's name</param>
+ <returns>true or false depending on the result</returns>
+</member>
+<member name="T:Qdi.DataAccess.DataAccessFactory.DatabaseType">
+ <summary>
+ An enum for which database type is being used
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessFactory.Create(System.String)">
+ <summary>
+ A function for creating a new personal database access string.
+ </summary>
+ <param name="pConnectionString">The string to be used in creating the new database access</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.DataAccessFactory.Create(Qdi.DataAccess.DataAccessFactory.DatabaseType)">
+ <summary>
+ A function for creating an IDataAccess object based off of the database type passed in.
+ </summary>
+ <param name="databaseType">The database type passed in (has to be one of the specified types in the DatabaseType enum).</param>
+ <returns></returns>
+</member>
+<member name="T:Qdi.DataAccess.CustomException">
+ <summary>
+ A custom exception class that allows for more specific exceptions than the standard system exception.
+ </summary>
+</member>
+<member name="T:Qdi.DataAccess.ICursorToQdiRecord">
+ <summary>
+ An interface for use with getting the ICursor into the QdiRecord
+ </summary>
+</member>
+<member name="T:Qdi.DataAccess.IDataAccess">
+ <summary>
+     Interface for DataAccess.vb
+ </summary>
+</member>
+<member name="T:Qdi.DataAccess.IPropertyToFieldMappingList">
+ <summary>
+     Interface for PropertyToFieldMappingList.vb
+ </summary>
+</member>
+<member name="T:Qdi.DataAccess.IQdiCursorDefinition">
+ <summary>
+     Interface of mostly properties used byrsor definition classes.
+ </summary>
+</member>
+<member name="T:Qdi.DataAccess.IQdiRecordStandardizer">
+ <summary>
+     An interface (with one function signature) used by QdiRecordStandardizer.vb
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.PostGresDataAccess.GetWorkspace">
+ <summary>
+ Returns the Arc Sde workspace
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresDataAccess.SwitchToEditorWorkspace">
+ <summary>
+ Switch to Acr SDE database
+ </summary>
+</member>
+<member name="P:Qdi.DataAccess.PostGresDataAccess.ViewerConnectionString">
+ <summary>
+ SDE database conneciton string
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Qdi.DataAccess.PostGresDataAccess.EditorConnectionString">
+ <summary>
+ SDE database editor connection string
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Qdi.DataAccess.PostGresDataAccess.QdiCursor">
+ <summary>
+ Gets the current postgres cursor 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Qdi.DataAccess.PostGresDataAccess.PropertyToFieldMapping">
+ <summary>
+ Get the property to field
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Qdi.DataAccess.PostGresDataAccess.ReferenceMapFieldLookup">
+ <summary>
+ Map referenced field
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresDataAccess.NextQseriesId">
+ <summary>
+ Gets next relate id
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresDataAccess.NextUniqueWellId">
+ <summary>
+ Gets next relate id not a q series
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresDataAccess.DatabaseSpecificClassName(Qdi.BusinessLogic.NamedFeatureClass)">
+ <summary>
+ Gets the specific database name with fields
+ </summary>
+ <param name="featureClassName"></param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresDataAccess.DatabaseSpecificTableName(Qdi.BusinessLogic.NamedTables)">
+ <summary>
+ Gets the qdi name and owner
+ </summary>
+ <param name="tableName"></param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresDataAccess.SelectByObjectID(System.Double)">
+ <summary>
+ Get object id
+ </summary>
+ <param name="ObjectId"></param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresDataAccess.useTestData">
+ <summary>
+ Use enviorment test 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresDataAccess.QDIOwner">
+ <summary>
+ Gets the QDI resource owner
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresDataAccess.QDIDataBase">
+ <summary>
+ Gets the QDI database debug
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresDataAccess.QDIInstance">
+ <summary>
+ Gets the QDI debug instance
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:Qdi.DataAccess.PropertyToFieldMappingPostGres">
+ <summary>
+ This maps the properties Of a QDIRecord To the actual fields In qdix.qdi
+ </summary>
+</member>
+<member name="P:Qdi.DataAccess.PropertyToFieldMappingPostGres.PropertyToFieldMapping">
+ <summary>
+ Map a property to a field for the database
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Qdi.DataAccess.PropertyToFieldMappingPostGres.FieldToPropertyMapping">
+ <summary>
+ Map field to a property 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PropertyToFieldMappingPostGres.ReturnField(System.String)">
+ <summary>
+ Returns the mapping field in the property
+ </summary>
+ <param name="inProperty"></param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PropertyToFieldMappingPostGres.ReturnProperty(System.String)">
+ <summary>
+ Returns mappint property from dictionary
+ </summary>
+ <param name="inField"></param>
+ <returns></returns>
+</member>
+<member name="P:Qdi.DataAccess.PropertyToFieldMappingPostGres.PropertyList">
+ <summary>
+ Returnd the property list keys
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Qdi.DataAccess.PropertyToFieldMappingPostGres.FieldList">
+ <summary>
+ Returnd the field list
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PropertyToFieldMappingPostGres.BuildFieldMapping">
+ <summary>
+ Build a field mapping dictionary
+ </summary>
+</member>
+<member name="T:Qdi.DataAccess.PropertyToFieldMappingFactory">
+ <summary>
+ Mapping to a property field in the database dictionary
+ </summary>
+</member>
+<member name="T:Qdi.DataAccess.QdiCursorBaseClass">
+ <summary>
+ Data fields of the qdi cursor
+ </summary>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.ObjectId">
+ <summary>
+ m_ObjectId getter/setter. 
+ </summary>
+ <returns>m_ObjectId valuse</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.RelateId">
+ <summary>
+ Sets the m_RelateIdValidator
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.QdiCursorBaseClass.Refresh">
+ <summary>
+ Refreshes all values, zeros and sets new
+ </summary>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.Township">
+ <summary>
+ m_Township getter/setter
+ </summary>
+ <returns>m_Township value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.Range">
+ <summary>
+ m_Range getter/setter
+ </summary>
+ <returns>m_Range value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.Section">
+ <summary>
+ m_Section getter/setter
+ </summary>
+ <returns>m_Section value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.DataSource">
+ <summary>
+ m_DataSource getter/setter
+ </summary>
+ <returns>m_DataSource value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.FromDate">
+ <summary>
+ m_FromDate getter/setter
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.ToDate">
+ <summary>
+m_ToDate getter/setter
+ </summary>
+ <returns>m_ToDate value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.FromDepth">
+ <summary>
+ m_FromDepth getter/setter
+ </summary>
+ <returns>m_FromDepth value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.ToDepth">
+ <summary>
+ m_ToDepth getter/setter
+ </summary>
+ <returns>m_ToDepth value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.Counties">
+ <summary>
+ m_Counties getter/setter
+ </summary>
+ <returns>m_Counties value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.Quadrangles">
+ <summary>
+ m_Quadrangles getter/setter
+ </summary>
+ <returns>m_Quadrangles value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.FirstBedrockUnits">
+ <summary>
+ m_FirstBedrocks getter/setter
+ </summary>
+ <returns>m_FirstBedrocks value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.LastBedrockUnits">
+ <summary>
+ m_LastBedrocks getter/setter
+ </summary>
+ <returns>m_LastBedrocks value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.FirstStratUnits">
+ <summary>
+ m_FirstStratUnits getter/setter
+ </summary>
+ <returns>m_FirstStratUnits value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.LastStratUnits">
+ <summary>
+ m_LastStratUnits getter/seetter
+ </summary>
+ <returns>m_LastStratUnits value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.Aquifers">
+ <summary>
+ m_Aquifers getter/setter
+ </summary>
+ <returns>m_Aquifers value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.RelateIDs">
+ <summary>
+ m_RelateIDs getter/setter
+ </summary>
+ <returns>m_RelateIDs value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.ValidationErrors">
+ <summary>
+ pValidationErrors getter/setter
+ </summary>
+ <returns>pValidationErrors value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.RelateIdValidator">
+ <summary>
+ m_RelateIdValidator value
+ </summary>
+ <returns>m_RelateIdValidator value</returns>
+</member>
+<member name="P:Qdi.DataAccess.QdiCursorBaseClass.DataAccess">
+ <summary>
+ m_DataAccess getter/setter
+ </summary>
+ <returns>m_DataAccess value</returns>
+</member>
+<member name="M:Qdi.DataAccess.QDIDataAccessInstaller.#ctor">
+ <summary>
+ default constructor for class QDIDataAccessInstaller
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.QDIDataAccessInstaller.Install(System.Collections.IDictionary)">
+ <summary>
+ QDIDataAccessInstaller Install function, call Install function in superclass
+ </summary>
+ <param name="stateSaver">System.Collections.IDictionary</param>
+</member>
+<member name="M:Qdi.DataAccess.QDIDataAccessInstaller.Uninstall(System.Collections.IDictionary)">
+ <summary>
+ QDIDataAccessInstaller Uninstall function, call Uninstall function in superclass
+ </summary>
+ <param name="savedState">System.Collections.IDictionary</param>
+</member>
+<member name="M:Qdi.DataAccess.QdiLoginForm.OK_Click(System.Object,System.EventArgs)">
+ <summary>
+ handles click event for OK button
+ </summary>
+ <param name="sender">sender is an object of generic type System.Object, it is passing the control that is causing the event to fire.</param>
+ <param name="e"> e is an object of type System.EventArgs where EventArgs is the generic Class for event arguments or, the arguments the event is passed.</param>
+</member>
+<member name="M:Qdi.DataAccess.QdiLoginForm.Cancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ handles click event for Cancel button
+ </summary>
+ <param name="sender">sender is an object of generic type System.Object, it is passing the control that is causing the event to fire.</param>
+ <param name="e"> e is an object of type System.EventArgs where EventArgs is the generic Class for event arguments or, the arguments the event is passed.</param>
+</member>
+<member name="M:Qdi.DataAccess.QdiLoginForm.QdiLoginForm_Load(System.Object,System.EventArgs)">
+ <summary>
+ gets the username from os and fills the text bar with it; then enables the OK button
+ </summary>
+ <param name="sender">sender is an object of generic type System.Object, it is passing the control that is causing the event to fire.</param>
+ <param name="e"> e is an object of type System.EventArgs where EventArgs is the generic Class for event arguments or, the arguments the event is passed.</param>
+</member>
+<member name="T:Qdi.DataAccess.PostGresQdiCursorDefinition">
+ <summary>
+ Cursor for the postgres database
+ </summary>
+</member>
+<member name="P:Qdi.DataAccess.PostGresQdiCursorDefinition.SqlString">
+ <summary>
+ Builds the sqlstring for the database
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresQdiCursorDefinition.addClause(System.String@,System.String)">
+ <summary>
+ Adds a clause for the database
+ </summary>
+ <param name="pSqlString"></param>
+ <param name="pThisClause"></param>
+</member>
+<member name="P:Qdi.DataAccess.PostGresQdiCursorDefinition.clauseRelateId">
+ <summary>
+ Caluse for the relate id
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresQdiCursorDefinition.StandardWhereClause(System.String@,System.Nullable{System.Decimal}@,System.String@)">
+ <summary>
+ Sets up the standard where clause
+ </summary>
+ <param name="fieldName">Field to update</param>
+ <param name="value">Value</param>
+ <param name="pOperator">Operator for value and field</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresQdiCursorDefinition.StandardWhereClause(System.String@,System.String@,System.String@)">
+ <summary>
+ Standard where clause/ builds string
+ </summary>
+ <param name="fieldName">Field to update</param>
+ <param name="value">Value</param>
+ <param name="pOperator">Operator for value and field</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresQdiCursorDefinition.StandardWhereClause(System.String@,System.Collections.Generic.List{System.String}@,System.String@)">
+ <summary>
+ Builds the standard clause for the database
+ </summary>
+ <param name="fieldName">Field to update</param>
+ <param name="value">Value</param>
+ <param name="pOperator">Operator for value and field</param>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.PostGresQdiCursorDefinition.QdixICursor">
+ <summary>
+ Gets the qdix cursor
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Qdi.DataAccess.QdiRecordStandardizer.#ctor">
+ <summary>
+ default constructor for class QdiRecordStandardizer
+ </summary>
+</member>
+<member name="M:Qdi.DataAccess.QdiRecordStandardizer.Standardize(Qdi.BusinessLogic.IQdiRecord,Qdi.DataAccess.IDataAccess)">
+ <summary>
+ format and standardize the input QDI record
+ </summary>
+ <param name="pQdiRecord">an instance of BusinessLogic.IQdiRecord</param>
+ <param name="pDataAccess">an instance of IDataAccess</param>
+ <returns>a new QDI record</returns>
+</member>
+<member name="P:Qdi.DataAccess.TexturePropertyToFieldMapping.PropertyToFieldMapping">
+ <summary>
+ repersents the private variable m_propertyToFieldMapping
+ </summary>
+ <returns>m_propertyToFieldMapping</returns>
+</member>
+<member name="P:Qdi.DataAccess.TexturePropertyToFieldMapping.FieldToPropertyMapping">
+ <summary>
+ repersents the private variable m_fieldToPropertyMapping
+ </summary>
+ <returns>m_fieldToPropertyMapping</returns>
+</member>
+<member name="M:Qdi.DataAccess.TexturePropertyToFieldMapping.ReturnField(System.String)">
+ <summary>
+ returns the value of the input string (key) in PropertyToFieldMapping, returns nothing if there is no such key
+ </summary>
+ <param name="inProperty">a string repersents the key to search in PropertyToFieldMapping</param>
+ <returns>returns the value of the input string (key) in PropertyToFieldMapping</returns>
+</member>
+<member name="M:Qdi.DataAccess.TexturePropertyToFieldMapping.ReturnProperty(System.String)">
+ <summary>
+  returns the value of the input string (key) in FieldToPropertyMapping, returns nothing if there is no such key
+ </summary>
+ <param name="inField">a string repersents the key to search in FieldToPropertyMapping</param>
+ <returns>returns the value of the input string (key) in FieldToPropertyMapping</returns>
+</member>
+<member name="P:Qdi.DataAccess.TexturePropertyToFieldMapping.PropertyList">
+ <summary>
+ repersents all keys in PropertyToFieldMapping
+ </summary>
+ <returns>a KeyCollection of all keys in PropertyToFieldMapping</returns>
+</member>
+<member name="P:Qdi.DataAccess.TexturePropertyToFieldMapping.FieldList">
+ <summary>
+ repersents all keys in FieldToPropertyMapping
+ </summary>
+ <returns>a KeyCollection of all keys in FieldToPropertyMapping</returns>
+</member>
+<member name="P:Qdi.DataAccess.TexturePropertyToFieldMapping.UpdateDateFieldName">
+ <summary>
+ return the value of key "date_modify" in PropertyToFieldMapping
+ </summary>
+ <returns>the value of key "date_modify" in PropertyToFieldMapping</returns>
+</member>
+<member name="M:Qdi.DataAccess.TexturePropertyToFieldMapping.BuildFieldMapping">
+ <summary>
+ populates the mapping for private variable m_propertyToFieldMapping
+ </summary>
+</member>
+</members>
+</doc>
